@@ -1,0 +1,12 @@
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.bg {
+    z-index: -1;
+}
+.element {
+    position: absolute;
+    z-index: 2;
+}

@@ -37,7 +37,7 @@ const Header = () => {
             <Nav>
               <Nav.Link href="#deets">Profile</Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
-                <Button variant="dark" className="rounded-0">Login</Button>
+                <Button variant="dark" className="rounded-0 login">Login</Button>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

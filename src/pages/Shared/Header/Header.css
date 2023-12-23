@@ -5,8 +5,11 @@
   font-weight: 500;
 }
 .latest {
-    background-color: rgb(220, 213, 213);
+  background-color: rgb(220, 213, 213);
 }
 .latest-news {
-    font-weight: 600;
+  font-weight: 600;
+}
+.login {
+  font-weight: 600;
 }
