@@ -24,12 +24,12 @@ const NavigationBar = () => {
                 </Nav.Link>
               )}
               {user ? (
-                <Button variant="dark" className="rounded-0 login">
+                <Button variant="dark" className="rounded-0">
                   Logout
                 </Button>
               ) : (
                 <Link to="/login">
-                  <Button variant="dark" className="rounded-0 login">
+                  <Button variant="dark" className="rounded-0">
                     Login
                   </Button>
                 </Link>
