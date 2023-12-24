@@ -4,6 +4,7 @@ import Header from "../pages/Shared/Header/Header";
 import LeftNav from "../pages/Shared/LeftNav/LeftNav";
 import RightNav from "../pages/Shared/RightNav/RightNav";
 import { Outlet } from "react-router-dom";
+import EditorsInsights from "../pages/Home/EditorsInsights/EditorsInsights";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         <Row>
           <Col lg={3}>
             <LeftNav></LeftNav>
+            <EditorsInsights></EditorsInsights>
           </Col>
           <Col lg={6}>
             <Outlet></Outlet>
