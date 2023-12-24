@@ -9,7 +9,7 @@ const News = () => {
     const news = useLoaderData();
     const { _id, title, details, image_url, category_id } = news;
     return (
-        <div>
+        <div className="my-4">
             <Card>
                 <Card.Img variant="top" src={image_url} />
                 <Card.Body>
